@@ -1,66 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Raghu Betina's frequently shared links">
-
+  
   <title>Raghu Betina's links</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Source+Sans+Pro" rel="stylesheet">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <style>
+    /*
+    * {
+      border: 1px red dashed;
+    }
+    */
+
     html {
       min-height: 100%;
     }
 
     body {
       min-height: 100%;
-      margin: 0;
-      color: white;
-      padding: 40px 20px;
-      background: linear-gradient(180deg, #1f005c, #43005a, #5d0056, #710052, #83004e, #911949, #9d2c46, #a73e43, #ae5042, #b46243, #b87347, #bb844e);
-      font-family: "Source Sans Pro", Sans-Serif;
-    }
-
-    a {
-      color: white;
-      text-decoration: none;
-    }
-
-    .main-container {
-      margin: auto;
-      max-width: 640px;
-    }
-
-    .image-row {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .name-row {
-      text-align: center;
-      margin-bottom: 30px;
-      font-family: "Playfair Display", Serif;
-      font-size: 24px;
-    }
-
-    .social-icons-row {
-      display: flex;
-      justify-content: space-around;
-      margin-bottom: 30px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: linear-gradient(180deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+      color: rgba(255, 255, 255, 1.0);
+      font-family: "Raleway";
     }
 
     .avatar-image {
       width: 128px;
       height: 128px;
-      border-radius: 128px;
       object-fit: cover;
+      border-radius: 128px;
     }
 
     .thumbnail {
@@ -70,26 +45,57 @@
       object-fit: cover;
     }
 
+    a {
+      color: rgba(255, 255, 255, 1.0);
+      text-decoration: none;
+    }
+
     .item {
-      padding: 5px;
-      border-radius: 500px;
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
       background-color: rgba(149, 123, 173, 0.5);
     }
 
-    .link-text {
-      flex-grow: 1;
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .image-row {
+      margin-bottom: 20px;
       text-align: center;
     }
+
+    .name-row {
+      margin-bottom: 30px;
+      text-align: center;
+      font-family: "Playfair Display";
+      font-size: 24px;
+      font-weight: 900;
+    }
+
+    .social-icons-row {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .item {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
+    }
+
   </style>
 </head>
 
 <body>
   <div class="main-container">
     <div class="image-row">
-      <img src="profile-pic.jpg" alt="Raghu Betina headshot" class="avatar-image">
+      <img src="/thumbnails/profile-pic.jpg" alt="Raghu Betina headshot" class="avatar-image">
     </div>
 
     <div class="name-row">
@@ -98,19 +104,19 @@
 
     <div class="social-icons-row">
       <a href="https://github.com/raghubetina" target="_blank">
-        <i class="fa-brands fa-github"></i>
+        GitHub
       </a>
 
       <a href="https://www.linkedin.com/in/raghubetina/" target="_blank">
-        <i class="fa-brands fa-linkedin"></i>
+        LinkedIn
       </a>
 
       <a href="https://www.instagram.com/raghubetina/" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
+        Instagram
       </a>
 
       <a href="https://twitter.com/raghubetina" target="_blank">
-        <i class="fa-brands fa-twitter"></i>
+        Twitter
       </a>
     </div>
 
